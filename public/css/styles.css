@@ -61,6 +61,30 @@
     font-size: 12px;
     font-style: normal;
     font-weight: normal;
-    
 }
 
+ul.address-ul{
+    float: left;
+    list-style: none;
+    padding-left:0;
+}
+
+.footer h4{
+    color: #ffda3d;
+}
+
+.footer p, .footer a{
+    color: white;
+}
+
+.copyright-info{
+    margin-top: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.copyright-info, .copyright-info a{
+    background: white;
+    color: #999;
+    font-size: 12px;
+}

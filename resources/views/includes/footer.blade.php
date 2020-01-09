@@ -1,6 +1,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
+            <!--Investor Risk Statement-->
             <div class="col-md-6">
                 <div class=".pull-left">
                     <h4 class="">Investor Risk Statement</h4>
@@ -12,24 +13,32 @@
             <div class="col-md-3">
 
             </div>
+            <!--Address Info-->
             <div class="col-md-3">
                 <h4>Address Info</h4>
-                <ul>
+                <ul class="address-ul">
                     <li>
+                        <p>
                         <i class="fa fa-map-marker fa-lg"></i>
                         Rome, Europarcobr<br>
-                        &nbsp Viale Giorgio Ribotta 11
+                        &nbsp Viale Giorgio Ribotta 11</p>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fa fa-envelope"></i>
+                            &nbsp info@trumanpartners.com
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="copyright_info">
-        fdsfdsfds
+    <div class="copyright-info">
+        <div class="container">
+           Copyright © 2010 Truman Partners. All rights reserved. 
+           &nbsp <a href="#">Terms of Use</a>
+           &nbsp | &nbsp<a href="#">Privacy Policy</a>
+           &nbsp | &nbsp<a href="#">Investor Risk Statement</a> 
+        </div>
     </div>
 </footer>

@@ -9,6 +9,7 @@
 
     <!--public/css/styles.css-->
     <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}" /> 
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/fec4dc8e7e.js"></script>
 </head>

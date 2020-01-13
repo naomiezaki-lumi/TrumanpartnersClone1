@@ -11,6 +11,12 @@
     float:left !important;
 }
 
+p {
+    font: 14px 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 23px;
+}
+
 /* Logo */
 .logo, .navbar{
     display: inline-block;
@@ -126,4 +132,50 @@ div.slider{
 .margin_top7 {
     width: 100%;
     margin-top: 70px;
+}
+
+
+/*Home - Parallax - Section 4*/
+.parallax_section4 {
+    width: 100%;
+    text-align: center;
+    padding: 140px 0px;
+    background: #333 url('/images/investing-header.jpg');
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sec2 {
+    text-shadow: 2px 2px 4px black;
+}
+
+.parallax_section4 h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 38px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.parallax_section4 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.button.transp2 {
+    background: #1a3560;
+}
+
+.button.transp2 {
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 50px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }

@@ -11,11 +11,22 @@
     float:left !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #333333;
+}
+
+h3{
+    font-size: 27px;
+}
+
 p {
     font: 14px 'Open Sans', sans-serif;
     font-weight: normal;
     line-height: 23px;
 }
+
 
 /* Logo */
 .logo, .navbar{
@@ -104,6 +115,9 @@ div.slider{
 
 .carousel-indicators li{
     background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
 }
 
 /*Home - Second Section*/
@@ -135,7 +149,7 @@ div.slider{
 }
 
 
-/*Home - Parallax - Section 4*/
+/*Home - Parallax - Section 3*/
 .parallax_section4 {
     width: 100%;
     text-align: center;
@@ -179,3 +193,137 @@ div.slider{
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
+
+
+/*Home - Fourth Section*/
+.features_sec4 {
+    position: relative;
+    z-index: 9;
+    background: #eee;
+    width: 100%;
+    padding: 115px 0px;
+}
+
+
+
+h3.unline {
+    float: left;
+    margin-bottom: 40px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #949494;
+}
+
+
+.features_sec4 .lblogs {
+    float: left;
+    width: 43%;
+    margin-right: 7%;
+}
+
+.features_sec4 .lblogs .lbimg img {
+    float: left;
+    height: auto;
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.features_sec4 .lblogs .lbimg span {
+    background: #1a3560;
+}
+
+.features_sec4 .lblogs .lbimg span {
+    float: left;
+    width: 40px;
+    height: 50px;
+    font-size: 18px;
+    color: #e3e3e3;
+    margin-top: -73px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.features_sec4 .lblogs .lbimg span strong {
+    text-transform: uppercase;
+}
+
+.features_sec4 .lblogs .lbimg span strong {
+    display: block;
+    font-size: 10px;
+    color: #e3e3e3;
+    background: #3c3c3c;
+    font-weight: normal;
+}
+
+.features_sec4 .lblogs p {
+    clear: both;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.features_sec4 a.remobut {
+    color: #1a3560;
+}
+
+.features_sec4 a.remobut:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+.features_sec4 a.remobut {
+    float: left;
+    text-transform: uppercase;
+    border: 1px solid #e1e1e1;
+    padding: 9px 22px;
+    margin-right: 2px;
+    border-radius: 3px;
+}
+
+.features_sec4 .slide-box {
+    float: left;
+    width: 100%;
+    padding-bottom: 35px;
+    border-bottom: 4px solid #d3d3d3;
+}
+
+.features_sec4 .slide-box {
+    float: left;
+    width: 100%;
+    padding-bottom: 35px;
+    border-bottom: 4px solid #d3d3d3;
+}
+
+.features_sec4 .slide-box .ppimg {
+    float: left;
+    width: 100%;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    background: url('/images/h-arrow-line1.png') no-repeat left bottom;
+}
+
+.features_sec4 .slide-box .ppimg img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.features_sec4 .slide-box .ppimg h6 {
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.features_sec4 .slide-box .ppimg h6 em {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.carousel-indicators.truman-slide-indicator {
+    bottom: -50px;
+    text-align: left;
+}
+

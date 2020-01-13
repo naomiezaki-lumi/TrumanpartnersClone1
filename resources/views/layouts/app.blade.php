@@ -9,8 +9,12 @@
 
     <!--public/css/styles.css-->
     <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}" /> 
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <!--Icons-->
     <script src="https://use.fontawesome.com/fec4dc8e7e.js"></script>
 </head>
 <body>
@@ -28,5 +32,6 @@
             @include('includes.footer')
     </div>
     
+    @include('includes.javascript')
 </body>
 </html>

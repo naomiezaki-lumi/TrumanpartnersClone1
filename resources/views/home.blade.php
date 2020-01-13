@@ -79,6 +79,7 @@
                     </div>
                 </div>
             </div>
+            <div class="margin_top7"></div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="title">
@@ -111,6 +112,18 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <!--THIRD SECTION-->
+    <div class="parallax_section4">
+        <div id="sec2" class="container">
+            <h1>Truman Partners</h1>
+
+            <p>Truman Partners is a group of fellow expatriates dedicated to your financial success. Our capabilities are typified by a combination of real-word experience, complete transparency, thoughtful investing, and industry leadership.</p>
+
+            <a href="#" class="button transp2">Read More</a>
         </div>
     </div>
 @endsection

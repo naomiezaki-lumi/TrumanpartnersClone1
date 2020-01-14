@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Truman Partners</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
 
-    <!--public/css/styles.css-->
-    <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}" /> 
+
+    <!--public/css/*-->
+    <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}" />
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -16,6 +18,10 @@
 
     <!--Icons-->
     <script src="https://use.fontawesome.com/fec4dc8e7e.js"></script>
+
+    <!--Animate On Scroll-->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 </head>
 <body>
 

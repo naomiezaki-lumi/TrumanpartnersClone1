@@ -120,7 +120,21 @@ div.slider{
     border-radius: 100%;
 }
 
+/*Home - First Section*/
+.home-section1 .carousel-caption{
+    top: 7em;
+}
+.home-section1 h1, .home-section1 p{
+    color: #1a3560;
+}
+
+.home-section1 p{
+    font-size: 17.4px;
+}
+
+
 /*Home - Second Section*/
+
 .second-section-home{
     background-color: #193560;
     padding-top: 7.5em;
@@ -204,15 +218,12 @@ div.slider{
     padding: 115px 0px;
 }
 
-
-
 h3.unline {
     float: left;
     margin-bottom: 40px;
     padding-bottom: 7px;
     border-bottom: 1px solid #949494;
 }
-
 
 .features_sec4 .lblogs {
     float: left;

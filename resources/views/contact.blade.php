@@ -2,7 +2,7 @@
 
 @section('content')
 <!--First Section-->
-<div class="contact-us-title">
+<div class="page-title">
     <div class="container">
         <div class="row">
             <div class="col-md-9">
@@ -11,13 +11,12 @@
             <div class="col-md-3">
                 <span class="pagenation float-right">
                     &nbsp;
-                    <a href="https://trumanpartners.com">Home</a> 
+                    <a href="/">Home</a> 
                     <i> / </i> 
                     Contact Us
                 </span>
             </div>
-        </div>
-              
+        </div>  
     </div>
 </div>
 

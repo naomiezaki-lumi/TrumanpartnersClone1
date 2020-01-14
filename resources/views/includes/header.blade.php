@@ -20,7 +20,7 @@
                             <a class="nav-link" href="#">Apply now</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Truman</a>
+                            <a class="nav-link" href="/about">About Truman</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Our Services</a>

@@ -22,6 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h3{
     font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 30px;
 }
 
 p {
@@ -30,6 +32,39 @@ p {
     line-height: 23px;
 }
 
+a{
+    text-decoration: none;
+}
+
+/*Page Title / Header*/
+.page-title{
+    background: #1a3560 url('/images/tru-footer-graph3.png') no-repeat center bottom;
+    padding: 40px 0px;
+}
+
+.page-title h1 {
+    font-size: 32px;
+    font-weight: 200 !important;
+    margin-bottom: 0px;
+    color: #ffda3d;
+}
+
+.page-title .pagenation{
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    color: #e3e3e3;
+    margin-top: 1em;
+}
+
+.page-title .pagenation a{
+    color: #ffda3d;
+}
+
+.page-title .pagenation i {
+    color: #999;
+    margin: 0px 2px 0px 2px;
+}
 
 /* Logo */
 .logo, .navbar{
@@ -346,36 +381,7 @@ h3.unline {
 }
 
 
-
-/*Contact Us - First Section*/
-.contact-us-title{
-    background: #1a3560 url('/images/tru-footer-graph3.png') no-repeat center bottom;
-    padding: 40px 0px;
-}
-
-.contact-us-title h1 {
-    font-size: 32px;
-    font-weight: 200 !important;
-    margin-bottom: 0px;
-    color: #ffda3d;
-}
-
-.contact-us-title .pagenation{
-    font-size: 12px;
-    text-align: left;
-    font-weight: normal;
-    color: #e3e3e3;
-    margin-top: 1em;
-}
-
-.contact-us-title .pagenation a{
-    color: #ffda3d;
-}
-
-.contact-us-title .pagenation i {
-    color: #999;
-    margin: 0px 2px 0px 2px;
-}
+/*Contact Us - Second Section*/
 
 .contact-us-section2{
     padding: 120px 0px;
@@ -450,4 +456,24 @@ h3.unline {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+}
+
+/*About Us - Second Section*/
+.about-us-section2{
+    padding: 120px 0px;
+}
+
+
+/*Sidebar Blogs*/
+.side-blog{
+    margin-bottom: 10px;
+}
+
+.mtphr-dnt-tick-paging {
+    text-align: center;
+    list-style: none;
+}
+
+.side-blog h4 a{
+    color: #333333
 }

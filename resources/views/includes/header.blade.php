@@ -14,7 +14,7 @@
                 <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Apply now</a>
@@ -29,7 +29,7 @@
                             <a class="nav-link" href="#">Tru Insights</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="/contact-us">Contact Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Login</a>

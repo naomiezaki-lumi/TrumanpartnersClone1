@@ -65,14 +65,8 @@
                         </div>
                         <div class="row">
                             <div class="col col-12">
-                                <label class="label">Message</label>
-                                <div class="input">
-                                    <textarea name="" id="" cols="40" rows="4"></textarea>
-                                </div>
+                                <input class="button" type="submit" value="Send Message">
                             </div>
-                        </div>
-                        <div class="row">
-                            <input type="submit">
                         </div>
                     </form>
                 </div>

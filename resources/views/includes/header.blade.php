@@ -23,10 +23,10 @@
                             <a class="nav-link" href="/about">About Truman</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Services</a>
+                            <a class="nav-link" href="/services">Our Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tru Insights</a>
+                            <a class="nav-link" href="/tru-insights">Tru Insights</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contact-us">Contact Us</a>

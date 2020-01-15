@@ -22,3 +22,11 @@ Route::get('/contact-us', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/tru-insights', function(){
+    return view('tru-insights');
+});

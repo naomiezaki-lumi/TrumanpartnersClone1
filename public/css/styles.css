@@ -1,10 +1,7 @@
 body{
     color: #727272;
 }
-.header{
-    padding-top:1em;
-    height:6em;
-}
+
 
 .pull-right{
     float:right !important;
@@ -67,6 +64,7 @@ a{
     margin: 0px 2px 0px 2px;
 }
 
+
 /* Logo */
 .logo, .navbar{
     display: inline-block;
@@ -81,8 +79,12 @@ a{
 }
 
 /*hamburger menu*/
+
+.navbar-toggler{
+    background-color: black;
+}
 .navbar-toggler-icon{
-    color:black !important;
+    color:white !important;
 }
 
 /*nav menu links*/
@@ -174,6 +176,8 @@ div.slider{
 .home-section1 h1{
     font-weight: bolder !important;
 }
+
+
 
 
 /*Home - Second Section*/

@@ -138,6 +138,9 @@ a{
     background: #ffda3d;
     color: #1a3560;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: .5rem 1rem;
+}
 
 @media (max-width: 767px){ /*For Extra Small Devices, Phones*/
     .header .navbar .container{
@@ -159,19 +162,8 @@ a{
 
 @media (min-width : 992px) and (max-width: 1199px){ /*For Medium Devices, Desktops*/
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding: .5rem 1rem;
-    }
-}
-
-@media (min-width : 1200px) { /*Large Devices, Wide Screens*/
-
-}
-
-@media (min-width: 1024px) and (max-width: 1024px){ /* iPad Pro view*/
-    .navbar-expand-lg .navbar-nav .nav-link {
         padding: .5rem 0.5rem;
     }
-
 }
 
 /* Footer */
@@ -245,6 +237,38 @@ div.slider{
 
 .home-section1 h1{
     font-weight: bolder !important;
+}
+
+@media (max-width: 767px){ /*For Extra Small Devices, Phones*/
+    .home-section1 .carousel-caption{
+        top: 1em;
+    }
+    
+    .home-section1 p{
+        font-size: 5pt;
+        line-height: 10px;
+    }
+    
+    .home-section1 h1{
+        font-size: 12pt;
+        font-weight: bolder !important;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px){ /*For Small Devices, Tablets*/
+    .home-section1 .carousel-caption{
+        top: 2em;
+    }
+
+    .home-section1 p{
+        font-size: 9pt;
+        line-height: 18px;
+    }
+    
+    .home-section1 h1{
+        font-size: 20pt;
+        font-weight: bolder !important;
+    }
 }
 
 

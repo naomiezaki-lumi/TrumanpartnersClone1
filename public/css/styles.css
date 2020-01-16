@@ -1,3 +1,24 @@
+/* 
+General Style
+Page Title
+Logo
+Hamburger Menu
+Navigation
+Footer
+Slider
+Home - First Section
+Home - Second Section
+Home - Third Section - Parallax
+Home - Fourth Section
+Contact Us - Second Section
+About Us - Second Section
+Services - Second Section
+Tru Insights - Second Section
+Sidebar Blogs
+*/
+
+
+/*General Style*/
 body{
     color: #727272;
 }
@@ -33,7 +54,7 @@ a{
     
 }
 
-/*Page Title / Header*/
+/*Page Title*/
 .page-title{
     background: #1a3560 url('/images/tru-footer-graph3.png') no-repeat center bottom;
     padding: 40px 0px;
@@ -85,7 +106,7 @@ a{
 }
 
 
-/*hamburger menu*/
+/*Hamburger Menu*/
 .navbar-toggler{
     background-color: #272727;
     color: white;
@@ -227,8 +248,6 @@ div.slider{
 }
 
 
-
-
 /*Home - Second Section*/
 
 .second-section-home{
@@ -243,7 +262,7 @@ div.slider{
 }
 
 .second-section-home .title h3{
-    width: 10em;
+    width: 6em;
     display: inline-block;
     color: white;
 }
@@ -259,7 +278,7 @@ div.slider{
 }
 
 
-/*Home - Parallax - Section 3*/
+/*Home - Third Section - Parallax*/
 .parallax_section4 {
     width: 100%;
     text-align: center;

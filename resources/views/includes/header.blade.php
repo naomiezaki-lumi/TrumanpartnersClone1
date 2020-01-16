@@ -5,10 +5,11 @@
                 <img src="{{ URL::asset('images/truman-partners-logo.png') }}" alt="" width="100%">
             </a>
         </div>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg float-right">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span>Menu</span>
+                    <i class="fa fa-bars"></i>
                 </button>
 
                 <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">

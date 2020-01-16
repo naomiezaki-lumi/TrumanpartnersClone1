@@ -301,6 +301,15 @@ div.slider{
     margin-top: 70px;
 }
 
+@media (max-width: 767px){ /*for Extra Small Devices, Phones*/
+    .second-section-home .col-md-4{
+        margin-bottom: 40px;
+    }
+    .margin_top7 {
+        margin-top: 0px !important;
+    }
+}
+
 
 /*Home - Third Section - Parallax*/
 .parallax_section4 {
